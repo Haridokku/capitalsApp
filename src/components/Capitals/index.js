@@ -1,3 +1,4 @@
+
 import {Component} from 'react'
 
 import './index.css'
@@ -56,7 +57,7 @@ class Capitals extends Component {
             <select
               className="capital-select"
               value={activeCapitalId}
-              onClick={this.onChangeCapital}
+              onChange={this.onChangeCapital}
             >
               {countryAndCapitalsList.map(eachCapital => (
                 <option
